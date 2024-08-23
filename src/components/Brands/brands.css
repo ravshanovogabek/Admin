@@ -1,0 +1,119 @@
+.brands {
+    padding: 40px;
+    background-color: #f4f7f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.brands-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.brands h1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.add-brand {
+    padding: 10px 20px;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.add-brand:hover {
+    background-color: #34495e;
+    transform: translateY(-2px);
+}
+
+.brands-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.brands-table th, .brands-table td {
+    padding: 16px;
+    text-align: left;
+}
+
+.brands-table th {
+    background-color: #34495e;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.brands-table td {
+    border-bottom: 1px solid #ddd;
+}
+
+.brands-table tr:last-child td {
+    border-bottom: none;
+}
+
+.brand-logo {
+    width: 120px;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.brand-logo:hover {
+    transform: scale(1.1);
+}
+
+.country-info {
+    display: flex;
+    align-items: center;
+}
+
+.country-flag {
+    width: 24px;
+    height: auto;
+    margin-right: 8px;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.edit-btn, .delete-btn {
+    padding: 8px 12px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.edit-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+    transform: translateY(-2px);
+}
